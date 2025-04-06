@@ -7,9 +7,3 @@ Tech Stack:
 TypeScript (for clear, type-safe implementations and readability)
 
 Go (for performance-critical implementations and concurrency exploration)
-
-Goals:
-✔ Implement and compare different algorithmic approaches
-✔ Document time/space complexity trade-offs
-✔ Include unit tests for correctness and benchmarking
-✔ Gradually expand to cover advanced topics
