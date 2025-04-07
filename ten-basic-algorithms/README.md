@@ -1,8 +1,8 @@
-# Ten basic algorithms
+# Most Basic Algorithms in TypeScript and Go
 
-This repository contains implementations of ten basic algorithms in TypeScript and Go. The goal is to provide clear, type-safe implementations in TypeScript and explore performance-critical implementations in Go.
+This repository contains implementations of most frequently asked basic algorithms in TypeScript and Go. The algorithms are designed to be simple and easy to understand, making them suitable for beginners and those looking to refresh their knowledge.
 
-## Algorithms
+## Table of Contents
 - [vowelCount](vowelCount/README.md)
 - [reverseString](reverseString/README.md)
 - [isPalindrome](isPalindrome/README.md)
@@ -13,3 +13,4 @@ This repository contains implementations of ten basic algorithms in TypeScript a
 - [maxChar](maxChar/README.md)
 - [capitalizeFirst](capitalizeFirst/README.md)
 - [chunkArray](chunkArray/README.md)
+- [wordCount](wordCount/README.md)
