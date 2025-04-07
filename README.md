@@ -10,4 +10,4 @@ Go (for performance-critical implementations and concurrency exploration)
 
 
 ## Table of Contents
-- [Ten Basic algorithms](ten-basic-algorithms/README.md)
+- [Basic algorithms](basic-algorithms/README.md)
