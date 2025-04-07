@@ -1,4 +1,4 @@
-# Most Basic Algorithms in TypeScript and Go
+# Basic Algorithms in TypeScript and Go
 
 This repository contains implementations of most frequently asked basic algorithms in TypeScript and Go. The algorithms are designed to be simple and easy to understand, making them suitable for beginners and those looking to refresh their knowledge.
 
