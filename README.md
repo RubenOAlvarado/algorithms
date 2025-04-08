@@ -11,3 +11,4 @@ Go (for performance-critical implementations and concurrency exploration)
 
 ## Table of Contents
 - [Basic algorithms](basic-algorithms/README.md)
+- [Basic math](basic-math/README.md)
