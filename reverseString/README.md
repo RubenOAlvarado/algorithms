@@ -3,8 +3,8 @@
 ## Problem Statement
 Write a function that takes a string as input and returns the string reversed.
 
-## Implementatios
+## Implementations
 
 - [Typescript](./ts)
-- [Go](./go)
-- [Java](./java)
+- [Go](./go) (soon)
+- [Java](./java) (soon)
