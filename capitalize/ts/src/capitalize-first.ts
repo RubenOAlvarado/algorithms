@@ -4,5 +4,5 @@ function capitalizeFirstLetter(str: string): string {
 }
 
 export function capitalizeFirst(str: string): string {
-  return str.split(' ').map(capitalizeFirstLetter).join(' ');
+  return str.toLowerCase().split(' ').map(capitalizeFirstLetter).join(' ');
 }
