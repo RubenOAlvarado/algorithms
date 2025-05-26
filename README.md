@@ -14,3 +14,5 @@ As part of my ongoing study of algorithms, I created this project to document an
 - [Reverse String](./reverseString/README.md)
 - [Reverse Integer](./reverseInteger/README.md)
 - [Capitalize First Letter of Each Word](./capitalize/README.md)
+- [Max Profit](./maxProfit/README.md)
+- [Chunk Array](./chunkArray/README.md)
