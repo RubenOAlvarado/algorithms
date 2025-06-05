@@ -18,3 +18,4 @@ As part of my ongoing study of algorithms, I created this project to document an
 - [Chunk Array](./chunkArray/README.md)
 - [FizzBuzz](./fizzbuzz/README.md)
 - [Spiral Matrix](./spiralMatrix/README.md)
+- [Is Valid Parenthesis](./isValidParenthesis/README.md)
