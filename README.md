@@ -10,6 +10,7 @@ As part of my ongoing study of algorithms, I created this project to document an
 
 
 ## Table of Contents
+- [Is Unique](./isUnique/README.md)
 - [Palindrome](./palindrome/README.md)
 - [Reverse String](./reverseString/README.md)
 - [Reverse Integer](./reverseInteger/README.md)
