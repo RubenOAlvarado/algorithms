@@ -18,6 +18,15 @@ function main(){
     } else {
         console.log("No, there are duplicate characters.");
     }
+    const str2 = "abcdeafg";
+    console.log(`Is the string "${str2}" unique?`);
+    const isUnique2 = isUniqueString(str2);
+    if (isUnique2) {
+        console.log("Yes, all characters are unique.");
+    } else {
+        console.log("No, there are duplicate characters.");
+    }
+    console.log("End of isUnique algorithm");
 }
 
 main();

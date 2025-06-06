@@ -4,13 +4,12 @@
 Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
 ## Algorithm
-1. Create a boolean array of size 256 (assuming ASCII characters).
-2. Loop through each character in the string.
-3. For each character, check if it has been seen before by checking the boolean array.
-4. If it has been seen, return false.
-5. If it has not been seen, mark it as seen in the boolean array.
-6. If the loop completes without finding duplicates, return true.
-7. If you cannot use additional data structures, sort the string and then check for adjacent characters.
+1. Create an empty object or set to keep track of characters.
+2. Iterate through each character in the string.
+3. For each character, check if it already exists in the object or set.
+   - If it does, return false (the string does not have all unique characters).
+   - If it does not, add the character to the object or set.
+4. If the loop completes without finding duplicates, return true (the string has all unique characters).
 
 ## Implementations
 - [Typescript](./ts)
