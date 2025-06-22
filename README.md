@@ -12,6 +12,7 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Count Digits](./countDigits/README.md)
 - [Is Unique](./isUnique/README.md)
 - [Palindrome](./palindrome/README.md)
+- [Number Palindrome](./numberPalindrome/README.md)
 - [Reverse String](./reverseString/README.md)
 - [Reverse Integer](./reverseInteger/README.md)
 - [Capitalize First Letter of Each Word](./capitalize/README.md)
