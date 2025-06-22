@@ -17,3 +17,5 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [FizzBuzz](./fizzbuzz/README.md)
 - [Spiral Matrix](./spiralMatrix/README.md)
 - [Is Valid Parenthesis](./isValidParenthesis/README.md)
+- [Lonely Integer](./lonelyInteger/README.md)
+- [Word Count](./wordCount/README.md)
