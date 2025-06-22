@@ -7,6 +7,7 @@ An algorithm is a set of instructions that tells a computer how to do something,
 
 
 ## Table of Contents
+- [Sum Of Natural Numbers](./sumNaturalNumbers/README.md)
 - [Is Unique](./isUnique/README.md)
 - [Palindrome](./palindrome/README.md)
 - [Reverse String](./reverseString/README.md)
