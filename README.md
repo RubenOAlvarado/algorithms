@@ -10,6 +10,7 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Sum of Natural Numbers](./sumNaturalNumbers/README.md)
 - [Sum of Digits](./sumDigits/README.md)
 - [Count Digits](./countDigits/README.md)
+- [Fibonacci Sequence](./fibonacci/README.md)
 - [Is Unique](./isUnique/README.md)
 - [Palindrome](./palindrome/README.md)
 - [Number Palindrome](./numberPalindrome/README.md)
