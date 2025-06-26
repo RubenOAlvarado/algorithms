@@ -11,6 +11,7 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Sum of Digits](./sumDigits/README.md)
 - [Count Digits](./countDigits/README.md)
 - [Fibonacci Sequence](./fibonacci/README.md)
+- [First Occurrence of a Character in a String](./firstOccurrence/README.md)
 - [Is Unique](./isUnique/README.md)
 - [Palindrome](./palindrome/README.md)
 - [Number Palindrome](./numberPalindrome/README.md)
