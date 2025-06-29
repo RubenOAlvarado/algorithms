@@ -25,3 +25,4 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Is Valid Parenthesis](./isValidParenthesis/README.md)
 - [Lonely Integer](./lonelyInteger/README.md)
 - [Word Count](./wordCount/README.md)
+- [Valid Anagram](./validAnagram/README.md)
