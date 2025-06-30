@@ -28,3 +28,4 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Valid Anagram](./validAnagram/README.md)
 - [Longest Common Prefix](./longestCommonPrefix/README.md)
 - [Merge Strings Alternately](./mergeStrings/README.md)
+- [Length of Last Word](./lengthOfLastWord/README.md)
