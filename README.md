@@ -30,3 +30,4 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Merge Strings Alternately](./mergeStrings/README.md)
 - [Length of Last Word](./lengthOfLastWord/README.md)
 - [Factorial](./factorial/README.md)
+- [Vowels Count](./vowelsCount/README.md)
