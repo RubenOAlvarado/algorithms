@@ -11,5 +11,4 @@ Write a function that takes an integer as input and returns the integer reversed
 
 ## Implementations
 - [Typescript](./ts)
-- [Go](./go) (soon)
-- [Java](./java) (soon)
+- [Go](./go)
