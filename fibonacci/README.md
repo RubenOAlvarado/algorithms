@@ -8,4 +8,5 @@ Given n calculate the nth Fibonacci number.
 
 ## Implementation
 
--[TypeScript](./ts)
+- [TypeScript](./ts)
+- [Go](./go)
