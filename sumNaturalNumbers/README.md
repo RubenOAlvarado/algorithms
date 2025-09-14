@@ -11,3 +11,4 @@ Given a positive integer `n`, return the sum of all natural numbers from `1` to 
 
 ## Implementations
 - [Typescript](./ts)
+- [Go](./go)

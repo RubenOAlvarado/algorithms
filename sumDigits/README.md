@@ -11,3 +11,4 @@ Given an integer, return the sum of its digits. For example, if the input is `12
 
 ## Implementations
 - [Typescript](./ts)
+- [Go](./go)
