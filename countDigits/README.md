@@ -14,3 +14,4 @@ Given an integer, return the number of digits in it. For example, if the input i
 
 ## Implementations
 - [Typescript](./ts)
+- [Go](./go)
