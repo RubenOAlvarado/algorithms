@@ -12,5 +12,4 @@ Write a function that prints the numbers from 1 to n. But for multiples of three
 
 ## Implementations
 - [Typescript](./ts)
-- [Go](./go) (soon)
-- [Java](./java) (soon)
+- [Go](./go)
