@@ -12,3 +12,4 @@ Given a string, count the number of vowels it contains. Vowels are the character
 
 ## Implementations
 - [Typescript](./ts)
+- [Go](./go)
