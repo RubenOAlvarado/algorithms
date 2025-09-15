@@ -1,7 +1,7 @@
 # Is Unique Characters
 
 ## Problem Statement
-Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+Implement an algorithm to determine if a string has all unique characters.
 
 ## Algorithm
 1. Create an empty object or set to keep track of characters.
