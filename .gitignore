@@ -1,19 +1,4 @@
-# Java
-*.class
-*.jar
-*.war
-*.ear
-*.iml
-*.log
-*.javadoc
-*.hprof
-*.DS_Store
-*.project
-*.classpath
-*.settings/
-target/
-bin/
-out/
+# .gitignore file
 
 # Golang
 *.exe
