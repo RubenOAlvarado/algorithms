@@ -12,5 +12,4 @@ Write a function that takes an array and a chunk size as input. The function sho
 
 ## Implementations
 - [Typescript](./ts)
-- [Go](./go) (soon)
-- [Java](./java) (soon)
+- [Go](./go)
