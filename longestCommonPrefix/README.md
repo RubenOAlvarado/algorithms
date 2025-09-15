@@ -11,3 +11,8 @@ Write a function to find the longest common prefix string amongst an array of st
    - While the string does not start with the prefix, reduce the prefix by removing the last character.
    - If the prefix becomes empty, return an empty string.
 5. If the prefix is still non-empty after checking all strings, return the prefix.
+
+## Implementation
+
+- [Typescript](./ts)
+- [Go](./go)
