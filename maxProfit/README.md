@@ -13,5 +13,4 @@ Given an array of prices where prices[i] is the price of a given stock on the it
 
 ## Implementations
 - [Typescript](./ts)
-- [Go](./go) (soon)
-- [Java](./java) (soon)
+- [Go](./go)
