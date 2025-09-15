@@ -11,3 +11,4 @@ Given a string and a character, find the index of the first occurrence of the ch
 
 ## Implementation
 - [TypeScript](./ts)
+- [Go](./go)
