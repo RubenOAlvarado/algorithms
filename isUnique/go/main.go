@@ -10,12 +10,12 @@ func main() {
 }
 
 func isUnique(s string) bool {
-	charSet := make(map[rune]bool)
+	charMap := make(map[rune]bool)
 	for _, c := range s {
-		if charSet[c] {
+		if charMap[c] {
 			return false
 		}
-		charSet[c] = true
+		charMap[c] = true
 	}
 	return true
 }
