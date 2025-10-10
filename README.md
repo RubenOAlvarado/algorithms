@@ -33,3 +33,4 @@ An algorithm is a set of instructions that tells a computer how to do something,
 - [Vowels Count](./vowelsCount/README.md)
 - [Max Char](./maxChar/README.md)
 - [Reverse Array in Place](./reverseArray/README.md)
+- [First Turn in Blackjack](./firstTurnBlackjack/README.md)
