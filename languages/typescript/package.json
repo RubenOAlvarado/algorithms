@@ -1,0 +1,17 @@
+{
+  "name": "algorithms-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript implementations for the algorithm challenges",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "run": "ts-node",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.8.3",
+    "vitest": "3.2.7"
+  }
+}

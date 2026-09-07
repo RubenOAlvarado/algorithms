@@ -1,0 +1,231 @@
+version: 1
+
+difficulties:
+  - foundation
+  - easy
+  - medium
+  - hard
+
+topics:
+  - fundamentals
+  - math
+  - strings
+  - arrays
+  - hash-maps-and-sets
+  - two-pointers
+  - stacks
+  - queues
+  - recursion
+  - dynamic-programming
+  - matrices
+  - sorting
+  - binary-search
+  - sliding-window
+  - linked-lists
+  - trees
+  - graphs
+  - heaps
+
+challenges:
+  - id: fizzbuzz
+    title: FizzBuzz
+    difficulty: foundation
+    topics: [fundamentals, math]
+    patterns: [conditionals, iteration]
+    prerequisites: []
+
+  - id: sum-natural-numbers
+    title: Sum of Natural Numbers
+    difficulty: foundation
+    topics: [fundamentals, math]
+    patterns: [iteration, arithmetic-formula]
+    prerequisites: []
+
+  - id: sum-digits
+    title: Sum of Digits
+    difficulty: foundation
+    topics: [fundamentals, math]
+    patterns: [digit-extraction]
+    prerequisites: [sum-natural-numbers]
+
+  - id: count-digits
+    title: Count Digits
+    difficulty: foundation
+    topics: [fundamentals, math]
+    patterns: [digit-extraction]
+    prerequisites: []
+
+  - id: factorial
+    title: Factorial
+    difficulty: foundation
+    topics: [math, recursion]
+    patterns: [iteration, recursion]
+    prerequisites: [sum-natural-numbers]
+
+  - id: first-occurrence
+    title: First Occurrence
+    difficulty: foundation
+    topics: [fundamentals, strings]
+    patterns: [linear-search]
+    prerequisites: []
+
+  - id: vowels-count
+    title: Vowels Count
+    difficulty: foundation
+    topics: [fundamentals, strings]
+    patterns: [iteration, membership-test]
+    prerequisites: [first-occurrence]
+
+  - id: word-count
+    title: Word Count
+    difficulty: foundation
+    topics: [fundamentals, strings]
+    patterns: [iteration]
+    prerequisites: []
+
+  - id: capitalize
+    title: Capitalize
+    difficulty: foundation
+    topics: [fundamentals, strings]
+    patterns: [string-transformation]
+    prerequisites: [word-count]
+
+  - id: length-of-last-word
+    title: Length of Last Word
+    difficulty: foundation
+    topics: [strings]
+    patterns: [reverse-traversal]
+    prerequisites: [word-count]
+
+  - id: reverse-string
+    title: Reverse String
+    difficulty: foundation
+    topics: [strings, two-pointers]
+    patterns: [two-pointers]
+    prerequisites: []
+
+  - id: reverse-array
+    title: Reverse Array in Place
+    difficulty: foundation
+    topics: [arrays, two-pointers]
+    patterns: [two-pointers, in-place]
+    prerequisites: [reverse-string]
+
+  - id: palindrome
+    title: Palindrome
+    difficulty: easy
+    topics: [strings, two-pointers]
+    patterns: [two-pointers]
+    prerequisites: [reverse-string]
+
+  - id: number-palindrome
+    title: Number Palindrome
+    difficulty: easy
+    topics: [math, two-pointers]
+    patterns: [digit-extraction]
+    prerequisites: [count-digits, palindrome]
+
+  - id: reverse-integer
+    title: Reverse Integer
+    difficulty: easy
+    topics: [math]
+    patterns: [digit-extraction, overflow-handling]
+    prerequisites: [sum-digits]
+
+  - id: chunk-array
+    title: Chunk Array
+    difficulty: easy
+    topics: [arrays]
+    patterns: [array-partitioning]
+    prerequisites: [reverse-array]
+
+  - id: merge-strings
+    title: Merge Strings Alternately
+    difficulty: easy
+    topics: [strings, two-pointers]
+    patterns: [two-pointers]
+    prerequisites: [reverse-string]
+
+  - id: is-unique
+    title: Is Unique
+    difficulty: easy
+    topics: [strings, hash-maps-and-sets]
+    patterns: [membership-test]
+    prerequisites: [first-occurrence]
+
+  - id: max-char
+    title: Max Char
+    difficulty: easy
+    topics: [strings, hash-maps-and-sets]
+    patterns: [frequency-counter]
+    prerequisites: [word-count]
+
+  - id: valid-anagram
+    title: Valid Anagram
+    difficulty: easy
+    topics: [strings, hash-maps-and-sets]
+    patterns: [frequency-counter]
+    prerequisites: [max-char]
+
+  - id: lonely-integer
+    title: Lonely Integer
+    difficulty: easy
+    topics: [arrays, hash-maps-and-sets]
+    patterns: [frequency-counter]
+    prerequisites: [max-char]
+
+  - id: missing-number
+    title: Missing Number
+    difficulty: easy
+    topics: [arrays, math]
+    patterns: [arithmetic-formula]
+    prerequisites: [sum-natural-numbers]
+
+  - id: longest-common-prefix
+    title: Longest Common Prefix
+    difficulty: easy
+    topics: [strings]
+    patterns: [vertical-scanning]
+    prerequisites: [first-occurrence]
+
+  - id: max-profit
+    title: Max Profit
+    difficulty: easy
+    topics: [arrays, two-pointers]
+    patterns: [running-minimum, greedy]
+    prerequisites: [reverse-array]
+
+  - id: valid-parentheses
+    title: Valid Parentheses
+    difficulty: easy
+    topics: [strings, stacks]
+    patterns: [matching-pairs]
+    prerequisites: [is-unique]
+
+  - id: diagonal-difference
+    title: Diagonal Difference
+    difficulty: easy
+    topics: [arrays, matrices]
+    patterns: [matrix-traversal]
+    prerequisites: [reverse-array]
+
+  - id: first-turn-blackjack
+    title: First Turn in Blackjack
+    difficulty: easy
+    topics: [fundamentals, hash-maps-and-sets]
+    patterns: [simulation, decision-table]
+    prerequisites: [fizzbuzz]
+
+  - id: fibonacci
+    title: Fibonacci Sequence
+    difficulty: medium
+    topics: [math, recursion, dynamic-programming]
+    patterns: [recursion, memoization, tabulation]
+    prerequisites: [factorial]
+
+  - id: spiral-matrix
+    title: Spiral Matrix
+    difficulty: medium
+    topics: [arrays, matrices]
+    patterns: [boundary-traversal, simulation]
+    prerequisites: [diagonal-difference]

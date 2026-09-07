@@ -1,0 +1,30 @@
+language: go
+
+solutions:
+  fizzbuzz:
+    status: reviewed
+    tested: false
+    contract: ../../challenges/fizzbuzz/README.md
+    note: Tests are present, but Go is not available in the current environment.
+
+defaults:
+  migrated-solution-status: legacy
+
+legacy-solutions:
+  - capitalize
+  - chunk-array
+  - count-digits
+  - fibonacci
+  - first-occurrence
+  - first-turn-blackjack
+  - is-unique
+  - longest-common-prefix
+  - max-profit
+  - number-palindrome
+  - palindrome
+  - reverse-array
+  - reverse-integer
+  - reverse-string
+  - sum-digits
+  - sum-natural-numbers
+  - vowels-count

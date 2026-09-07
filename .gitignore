@@ -4,11 +4,13 @@
 *.exe
 *.test
 *.out
-*.mod
-*.sum
 vendor/
 bin/
 coverage.out
+
+# Java / Maven
+target/
+*.class
 
 # TypeScript
 node_modules/
@@ -21,6 +23,7 @@ yarn-error.log*
 
 # General
 .env
+.practice/
 .idea/
 .vscode/
 *.swp

@@ -1,0 +1,8 @@
+language: java
+
+solutions:
+  fizzbuzz:
+    status: verified
+    tested: true
+    java: 21
+    contract: ../../challenges/fizzbuzz/README.md

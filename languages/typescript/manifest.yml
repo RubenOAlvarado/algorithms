@@ -1,0 +1,39 @@
+language: typescript
+
+solutions:
+  fizzbuzz:
+    status: verified
+    tested: true
+    contract: ../../challenges/fizzbuzz/README.md
+
+defaults:
+  migrated-solution-status: legacy
+
+legacy-solutions:
+  - capitalize
+  - chunk-array
+  - count-digits
+  - diagonal-difference
+  - factorial
+  - fibonacci
+  - first-occurrence
+  - is-unique
+  - valid-parentheses
+  - length-of-last-word
+  - lonely-integer
+  - longest-common-prefix
+  - max-char
+  - max-profit
+  - merge-strings
+  - missing-number
+  - number-palindrome
+  - palindrome
+  - reverse-array
+  - reverse-integer
+  - reverse-string
+  - spiral-matrix
+  - sum-digits
+  - sum-natural-numbers
+  - valid-anagram
+  - vowels-count
+  - word-count

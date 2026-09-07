@@ -1,36 +1,77 @@
 # Algorithm Knowledge Tracker
 
-As part of my ongoing study of algorithms, I created this project to document and organize my understanding of key concepts, implementations, and optimizations. The repository serves as a personal reference, but I hope it can also be useful to others learning algorithms and data structures.
+A language-independent collection of algorithm challenges and their
+implementations. Challenges are documented once and can be solved incrementally
+in Java, TypeScript, Go, or any language added later.
 
-## Definition
-An algorithm is a set of instructions that tells a computer how to do something, or you can also say it is a step-by-step procedure for solving a problem or accomplishing a task. Algorithms are fundamental to computer science and programming, as they provide the logic and structure needed to perform computations and process data efficiently.
+## Project structure
 
+```text
+.
+├── challenges/          # Language-independent problem statements
+│   └── <challenge>/
+│       └── README.md
+└── languages/           # One shared project per programming language
+    ├── java/            # Java 21, Maven + JUnit 5
+    ├── typescript/      # npm + TypeScript
+    └── go/              # One Go module
+```
 
-## Table of Contents
-- [Sum of Natural Numbers](./sumNaturalNumbers/README.md)
-- [Sum of Digits](./sumDigits/README.md)
-- [Count Digits](./countDigits/README.md)
-- [Fibonacci Sequence](./fibonacci/README.md)
-- [First Occurrence of a Character in a String](./firstOccurrence/README.md)
-- [Is Unique](./isUnique/README.md)
-- [Palindrome](./palindrome/README.md)
-- [Number Palindrome](./numberPalindrome/README.md)
-- [Reverse String](./reverseString/README.md)
-- [Reverse Integer](./reverseInteger/README.md)
-- [Capitalize First Letter of Each Word](./capitalize/README.md)
-- [Max Profit](./maxProfit/README.md)
-- [Chunk Array](./chunkArray/README.md)
-- [FizzBuzz](./fizzbuzz/README.md)
-- [Spiral Matrix](./spiralMatrix/README.md)
-- [Is Valid Parenthesis](./isValidParenthesis/README.md)
-- [Lonely Integer](./lonelyInteger/README.md)
-- [Word Count](./wordCount/README.md)
-- [Valid Anagram](./validAnagram/README.md)
-- [Longest Common Prefix](./longestCommonPrefix/README.md)
-- [Merge Strings Alternately](./mergeStrings/README.md)
-- [Length of Last Word](./lengthOfLastWord/README.md)
-- [Factorial](./factorial/README.md)
-- [Vowels Count](./vowelsCount/README.md)
-- [Max Char](./maxChar/README.md)
-- [Reverse Array in Place](./reverseArray/README.md)
-- [First Turn in Blackjack](./firstTurnBlackjack/README.md)
+An implementation is optional: a challenge can exist before it is solved in a
+specific language. See [`languages/README.md`](./languages/README.md) for the
+convention used to add Python, Ruby, or another language.
+
+## Start learning
+
+- Follow the [recommended learning path](./docs/learning-path.md).
+- Browse challenges [by topic](./docs/topics/README.md).
+- Browse challenges [by difficulty](./docs/difficulty.md).
+- Inspect difficulty, patterns, and prerequisites in
+  [`catalog.yml`](./catalog.yml).
+- See how reference implementations are validated in
+  [`docs/solution-review.md`](./docs/solution-review.md).
+
+## Run implementations
+
+```bash
+# Java
+cd languages/java && mvn test
+
+# TypeScript
+cd languages/typescript && npm install && npm run typecheck
+
+# Go
+cd languages/go && go test ./...
+```
+
+## Challenges
+
+- [Capitalize](./challenges/capitalize/README.md)
+- [Chunk Array](./challenges/chunk-array/README.md)
+- [Count Digits](./challenges/count-digits/README.md)
+- [Diagonal Difference](./challenges/diagonal-difference/README.md)
+- [Factorial](./challenges/factorial/README.md)
+- [Fibonacci Sequence](./challenges/fibonacci/README.md)
+- [First Occurrence](./challenges/first-occurrence/README.md)
+- [First Turn in Blackjack](./challenges/first-turn-blackjack/README.md)
+- [FizzBuzz](./challenges/fizzbuzz/README.md)
+- [Is Unique](./challenges/is-unique/README.md)
+- [Valid Parentheses](./challenges/valid-parentheses/README.md)
+- [Length of Last Word](./challenges/length-of-last-word/README.md)
+- [Lonely Integer](./challenges/lonely-integer/README.md)
+- [Longest Common Prefix](./challenges/longest-common-prefix/README.md)
+- [Max Char](./challenges/max-char/README.md)
+- [Max Profit](./challenges/max-profit/README.md)
+- [Merge Strings Alternately](./challenges/merge-strings/README.md)
+- [Missing Number](./challenges/missing-number/README.md)
+- [Number Palindrome](./challenges/number-palindrome/README.md)
+- [Palindrome](./challenges/palindrome/README.md)
+- [Reverse Array in Place](./challenges/reverse-array/README.md)
+- [Reverse Integer](./challenges/reverse-integer/README.md)
+- [Reverse String](./challenges/reverse-string/README.md)
+- [Spiral Matrix](./challenges/spiral-matrix/README.md)
+- [Sum of Digits](./challenges/sum-digits/README.md)
+- [Sum of Natural Numbers](./challenges/sum-natural-numbers/README.md)
+- [Valid Anagram](./challenges/valid-anagram/README.md)
+- [Vowels Count](./challenges/vowels-count/README.md)
+- [Word Count](./challenges/word-count/README.md)
