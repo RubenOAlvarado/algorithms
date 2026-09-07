@@ -1,0 +1,44 @@
+version: 1
+
+languages:
+  - en
+  - es
+
+coverage:
+  navigation:
+    core:
+      available: [en, es]
+
+  challenges:
+    available:
+      fizzbuzz: [en, es]
+    pending:
+      es:
+        - sum-natural-numbers
+        - sum-digits
+        - count-digits
+        - factorial
+        - first-occurrence
+        - vowels-count
+        - word-count
+        - capitalize
+        - length-of-last-word
+        - reverse-string
+        - reverse-array
+        - palindrome
+        - number-palindrome
+        - reverse-integer
+        - chunk-array
+        - merge-strings
+        - is-unique
+        - max-char
+        - valid-anagram
+        - lonely-integer
+        - missing-number
+        - longest-common-prefix
+        - max-profit
+        - valid-parentheses
+        - diagonal-difference
+        - first-turn-blackjack
+        - fibonacci
+        - spiral-matrix

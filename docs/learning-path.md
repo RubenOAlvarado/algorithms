@@ -1,3 +1,5 @@
+[English](./learning-path.md) | [Español](./learning-path.es.md)
+
 # Learning path
 
 This path orders challenges by concepts rather than alphabetically. Complete a

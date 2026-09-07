@@ -1,3 +1,5 @@
+[English](./two-pointers.md) | [Español](./two-pointers.es.md)
+
 # Two pointers
 
 - [Reverse String](../../challenges/reverse-string/README.md)

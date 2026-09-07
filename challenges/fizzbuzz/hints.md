@@ -1,3 +1,5 @@
+[English](./hints.md) | [Español](./hints.es.md)
+
 # FizzBuzz hints
 
 Reveal only one level at a time.

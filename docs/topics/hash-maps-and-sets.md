@@ -1,3 +1,5 @@
+[English](./hash-maps-and-sets.md) | [Español](./hash-maps-and-sets.es.md)
+
 # Hash maps and sets
 
 - [Is Unique](../../challenges/is-unique/README.md)

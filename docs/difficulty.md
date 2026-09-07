@@ -1,3 +1,5 @@
+[English](./difficulty.md) | [Español](./difficulty.es.md)
+
 # Challenges by difficulty
 
 Difficulty describes the algorithmic reasoning expected, not the amount of

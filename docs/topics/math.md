@@ -1,3 +1,5 @@
+[English](./math.md) | [Español](./math.es.md)
+
 # Math
 
 - [FizzBuzz](../../challenges/fizzbuzz/README.md)

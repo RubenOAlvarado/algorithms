@@ -1,3 +1,5 @@
+[English](./stacks-and-queues.md) | [Español](./stacks-and-queues.es.md)
+
 # Stacks and queues
 
 ## Current challenges

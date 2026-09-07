@@ -1,3 +1,5 @@
+[English](./planned-topics.md) | [Español](./planned-topics.es.md)
+
 # Planned interview topics
 
 These topics currently have no challenges. Suggested additions are ordered from

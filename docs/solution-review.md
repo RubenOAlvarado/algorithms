@@ -1,3 +1,5 @@
+[English](./solution-review.md) | [Español](./solution-review.es.md)
+
 # Reference solution review
 
 Existing implementations begin as `legacy`. A solution becomes `verified` only

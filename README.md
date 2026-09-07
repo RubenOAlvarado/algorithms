@@ -1,3 +1,5 @@
+[English](./README.md) | [Español](./README.es.md)
+
 # Algorithm Knowledge Tracker
 
 A language-independent collection of algorithm challenges and their

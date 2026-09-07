@@ -1,3 +1,5 @@
+[English](./fundamentals.md) | [Español](./fundamentals.es.md)
+
 # Fundamentals
 
 Start here when learning a language or refreshing its syntax.

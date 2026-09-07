@@ -1,3 +1,5 @@
+[English](./strings.md) | [Español](./strings.es.md)
+
 # Strings
 
 - [First Occurrence](../../challenges/first-occurrence/README.md)

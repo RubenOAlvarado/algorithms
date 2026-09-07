@@ -1,3 +1,5 @@
+[English](./README.md) | [Español](./README.es.md)
+
 # TypeScript
 
 All TypeScript implementations share this project and its dependencies.

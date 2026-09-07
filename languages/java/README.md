@@ -1,3 +1,5 @@
+[English](./README.md) | [Español](./README.es.md)
+
 # Java 21
 
 All Java implementations share this Maven project. Each challenge uses a

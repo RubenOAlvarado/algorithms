@@ -1,3 +1,5 @@
+[English](./README.md) | [Español](./README.es.md)
+
 # Go
 
 All Go implementations belong to this module, with one package directory per

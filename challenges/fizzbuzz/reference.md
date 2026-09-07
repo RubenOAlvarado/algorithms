@@ -1,3 +1,5 @@
+[English](./reference.md) | [Español](./reference.es.md)
+
 # FizzBuzz reference notes
 
 This document belongs to the reference material. The tutor should not reveal it
