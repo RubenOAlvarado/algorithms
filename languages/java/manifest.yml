@@ -6,3 +6,39 @@ solutions:
     tested: true
     java: 21
     contract: ../../challenges/fizzbuzz/README.md
+
+  valid-parentheses:
+    status: draft
+    tested: false
+    java: 21
+    contract: ../../challenges/valid-parentheses/README.md
+
+  valid-anagram:
+    status: draft
+    tested: false
+    java: 21
+    contract: ../../challenges/valid-anagram/README.md
+
+  max-profit:
+    status: draft
+    tested: false
+    java: 21
+    contract: ../../challenges/max-profit/README.md
+
+  missing-number:
+    status: draft
+    tested: false
+    java: 21
+    contract: ../../challenges/missing-number/README.md
+
+  longest-common-prefix:
+    status: draft
+    tested: false
+    java: 21
+    contract: ../../challenges/longest-common-prefix/README.md
+
+  spiral-matrix:
+    status: draft
+    tested: false
+    java: 21
+    contract: ../../challenges/spiral-matrix/README.md

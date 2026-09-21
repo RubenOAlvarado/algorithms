@@ -16,4 +16,5 @@ go run ./solutions/fibonacci
 ```
 
 New reference solutions belong in `solutions/<challenge>/`. New challenges do
-not require another `go.mod`.
+not require another `go.mod`. Public tests belong in `tests/<challenge>/` and
+reference-only tests remain next to their implementation in `solutions/`.

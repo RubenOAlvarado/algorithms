@@ -2,10 +2,9 @@ language: go
 
 solutions:
   fizzbuzz:
-    status: reviewed
-    tested: false
+    status: verified
+    tested: true
     contract: ../../challenges/fizzbuzz/README.md
-    note: Tests are present, but Go is not available in the current environment.
 
 defaults:
   migrated-solution-status: legacy

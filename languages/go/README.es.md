@@ -16,4 +16,6 @@ go run ./solutions/fibonacci
 ```
 
 Las nuevas soluciones de referencia deben situarse en `solutions/<challenge>/`.
-Los nuevos retos no requieren otro `go.mod`.
+Los nuevos retos no requieren otro `go.mod`. Las pruebas públicas deben situarse
+en `tests/<challenge>/` y las pruebas exclusivas de referencia deben permanecer
+junto a su implementación en `solutions/`.

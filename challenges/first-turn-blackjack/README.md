@@ -39,16 +39,6 @@ Although not optimal yet, you will follow the strategy your friend Alex has been
 - If your cards sum up to a value within the range [12, 16] you should always stand unless the dealer has a 7 or higher, in which case you should always hit.
 - If your cards sum up to 11 or lower you should always hit.
 
-## Algorithm to solve it
-- Create a function that takes three strings as input: card1, card2, and dealerCard.
-- Create a map to store the values of each card.
-- Create a function to calculate the first turn decision based on the given rules.
-- Check if card1 and card2 sum 22 (both are aces). If true, return "P" (split).
-- Check if card1 and card2 sum 21 (blackjack). If true, check if dealerCard is "ace", "king", "queen", "jack", or "ten". If true, return "S" (stand). Otherwise, return "W" (win).
-- Check if card1 and card2 sum between 17 and 20. If true, return "S" (stand).
-- Check if card1 and card2 sum between 12 and 16. If true, check if dealerCard value is 7 or higher. If true, return "H" (hit). Otherwise, return "S" (stand).
-- If none of the above conditions are met, return "H" (hit).
-
 ## Implementations
 - TypeScript (pending)
 - [Go](../../languages/go/solutions/first-turn-blackjack)
