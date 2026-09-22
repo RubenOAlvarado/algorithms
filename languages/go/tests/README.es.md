@@ -2,10 +2,14 @@
 
 # Pruebas públicas
 
-Estas pruebas definen el comportamiento público de cada reto sin depender de su
-implementación de referencia. La prueba de un reto está pensada para combinarse
-con el código correspondiente de `starters/<challenge>/` en un workspace de
-práctica aislado.
+Estas pruebas definen el comportamiento público de cada reto sin depender de
+implementaciones de referencia y ejercitan in situ el código correspondiente de
+`starters/<challenge>/`. Ejecuta un reto desde `languages/go`:
 
-El módulo anidado mantiene las pruebas del workspace de práctica separadas de la
-verificación de soluciones de referencia.
+```bash
+go test ./tests/fizzbuzz
+```
+
+El starter está incompleto deliberadamente, por lo que la prueba empieza en
+rojo. Quien aprende edita el starter; quien mantiene usa el procedimiento
+documentado de verificación de referencias.

@@ -1,25 +1,40 @@
 import { describe, expect, it } from "vitest";
 
-import { fizzBuzz } from "../solutions/fizzbuzz/fizzbuzz";
+import { fizzBuzz } from "../starters/fizzbuzz/fizzbuzz";
 
 describe("fizzBuzz", () => {
-  it("returns an empty collection for zero", () => {
-    expect(fizzBuzz(0)).toEqual([]);
+  it("n=0 returns an empty collection", () => {
+    expect(fizzBuzz(0)).toHaveLength(0);
   });
 
-  it("represents ordinary numbers", () => {
-    expect(fizzBuzz(2)).toEqual(["1", "2"]);
+  it("n=1 represents the first ordinary number", () => {
+    expect(fizzBuzz(1)).toEqual(["1"]);
   });
 
-  it("replaces multiples of three and five", () => {
+  it("n=3 ends in Fizz", () => {
+    expect(fizzBuzz(3).at(-1)).toBe("Fizz");
+  });
+
+  it("n=5 matches the example", () => {
     expect(fizzBuzz(5)).toEqual(["1", "2", "Fizz", "4", "Buzz"]);
   });
 
-  it("prioritizes values divisible by both three and five", () => {
-    expect(fizzBuzz(15).at(-1)).toBe("FizzBuzz");
+  it("n=15 matches the README example", () => {
+    expect(fizzBuzz(15)).toEqual([
+      "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz",
+      "11", "Fizz", "13", "14", "FizzBuzz",
+    ]);
   });
 
-  it("returns exactly one representation per input value", () => {
+  it("position 15 is FizzBuzz rather than Fizz", () => {
+    expect(fizzBuzz(15)[14]).toBe("FizzBuzz");
+  });
+
+  it("n=30 has exactly two FizzBuzz values", () => {
+    expect(fizzBuzz(30).filter((value) => value === "FizzBuzz")).toHaveLength(2);
+  });
+
+  it("n=100 returns one value per input", () => {
     expect(fizzBuzz(100)).toHaveLength(100);
   });
 });

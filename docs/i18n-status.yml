@@ -9,6 +9,16 @@ coverage:
     core:
       available: [en, es]
 
+  documentation:
+    available:
+      practice: [en, es]
+      solution-review: [en, es]
+      templates/challenge-readme: [en, es]
+      templates/reference: [en, es]
+      templates/hints: [en, es]
+      templates/explanation: [en, es]
+      contributor-guidance: [en, es]
+
   challenges:
     available:
       fizzbuzz: [en, es]

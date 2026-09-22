@@ -9,6 +9,6 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["solutions/**/*.ts", "tests/**/*.ts"],
+  "include": ["solutions/**/*.ts", "starters/**/*.ts", "tests/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

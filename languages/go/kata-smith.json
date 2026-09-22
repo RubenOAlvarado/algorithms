@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "language": "go",
+  "challenges": {
+    "fizzbuzz": {
+      "required_commands": ["go"],
+      "artifacts": [
+        {"source": "starters/fizzbuzz", "target": "starters/fizzbuzz"},
+        {"source": "tests/fizzbuzz", "target": "tests/fizzbuzz"},
+        {"source": "go.mod", "target": "."}
+      ],
+      "test_command": ["go", "test", "./tests/fizzbuzz"],
+      "compile_command": ["go", "test", "./starters/fizzbuzz"],
+      "reference_artifacts": [
+        {"source": "tests/fizzbuzz", "target": "tests/fizzbuzz"},
+        {"source": "go.mod", "target": "."},
+        {"source": "solutions/fizzbuzz/main.go", "target": "starters/fizzbuzz"}
+      ]
+    }
+  }
+}

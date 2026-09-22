@@ -2,20 +2,16 @@
 
 # Go
 
-Todas las implementaciones de Go pertenecen a este módulo, con un directorio de
-paquete por reto.
+Haz un fork del repositorio y edita `starters/<challenge>/` in situ. Las pruebas
+públicas de contrato apuntan al starter, por lo que fallan deliberadamente
+mientras esté incompleto.
 
 ```bash
-go test ./solutions/...
+go test ./tests/fizzbuzz
 ```
 
-Ejecuta un reto implementado con:
-
-```bash
-go run ./solutions/fibonacci
-```
-
-Las nuevas soluciones de referencia deben situarse en `solutions/<challenge>/`.
-Los nuevos retos no requieren otro `go.mod`. Las pruebas públicas deben situarse
-en `tests/<challenge>/` y las pruebas exclusivas de referencia deben permanecer
-junto a su implementación en `solutions/`.
+Ejecuta el comando desde `languages/go`. Edita el starter correspondiente hasta
+que pase su prueba. Las referencias están en `solutions/<challenge>/` y se
+verifican con el procedimiento de mantenedor de
+[`docs/solution-review.es.md`](../../docs/solution-review.es.md). Los retos
+nuevos no requieren otro `go.mod`.

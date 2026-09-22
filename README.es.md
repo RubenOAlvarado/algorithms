@@ -31,21 +31,27 @@ para conocer la convención utilizada al añadir Python, Ruby u otro lenguaje.
 - Explora los retos [por dificultad](./docs/difficulty.es.md).
 - Consulta la dificultad, los patrones y los prerrequisitos en
   [`catalog.yml`](./catalog.yml).
+- Practica un reto editando su starter in situ. Consulta
+  [`docs/practice.es.md`](./docs/practice.es.md).
 - Descubre cómo se validan las implementaciones de referencia en
   [`docs/solution-review.es.md`](./docs/solution-review.es.md).
 
-## Ejecutar las implementaciones
+## Practicar y verificar
 
 ```bash
-# Java
-cd languages/java && mvn test
+# Go: practica FizzBuzz (el starter incompleto hace que falle al principio)
+cd languages/go && go test ./tests/fizzbuzz
 
-# TypeScript
-cd languages/typescript && npm install && npm run typecheck
+# TypeScript: practica FizzBuzz
+cd languages/typescript && npm install && npm test -- tests/fizzbuzz.test.ts
 
-# Go
-cd languages/go && go test ./...
+# Java: practica FizzBuzz
+cd languages/java && mvn -Dtest=FizzBuzzTest test
 ```
+
+Estos comandos prueban starters y fallan deliberadamente hasta que se implemente
+el ejercicio. La verificación de referencias es un flujo para mantenedores
+documentado en [`docs/solution-review.es.md`](./docs/solution-review.es.md).
 
 ## Retos
 

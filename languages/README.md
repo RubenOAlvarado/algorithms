@@ -2,22 +2,26 @@
 
 # Language implementations
 
-Each directory is an independent project containing implementations for any
-number of challenges. A challenge does not need to be available in every
-language.
+Each directory is an independent project for any number of challenges. Fork the
+repository, edit the selected starter in place, and run that language's contract
+test. A challenge does not need to be available in every language.
 
 Each language can provide:
 
 ```text
-starters/     # Incomplete code copied into a learner's workspace
+starters/     # Incomplete code edited in place by learners
 tests/        # Contract-based automated tests
 solutions/    # Reviewed or legacy reference implementations
-manifest.yml  # Review status for each available implementation
+manifest.yml  # Source of truth for each implementation's review status
 ```
 
-The future tutor skill will copy starters and tests into the ignored
-`.practice/` directory. Learners should never edit reference solutions during
-a normal practice session.
+Java is the structural exception: all starters share the Maven source tree at
+`starters/src/main/java/`, while tests and references use their own shared
+trees. Learners edit starters, never reference solutions.
+
+Each language supplies an optional `kata-smith.json` adapter for external
+tools. The repository does not require kata-smith, kata-smith does not require
+this repository, and the language projects remain mutually independent.
 
 ## Current languages
 
@@ -34,4 +38,4 @@ a normal practice session.
 5. Record solution review status in `manifest.yml`.
 
 Language projects remain independent so adding Python, Ruby, or another
-language does not affect existing builds.
+language does not affect existing builds or tooling.

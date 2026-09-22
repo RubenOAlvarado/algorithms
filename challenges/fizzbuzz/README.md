@@ -52,6 +52,17 @@ n = 15
 - [ ] The input is traversed only once.
 - [ ] Time and space complexity can be explained.
 
+## Practice
+
+Fork the repository and edit one starter in place. Its contract test starts red
+because the starter is deliberately incomplete.
+
+| Language | Starter | Command |
+| --- | --- | --- |
+| Go | `languages/go/starters/fizzbuzz/main.go` | `cd languages/go && go test ./tests/fizzbuzz` |
+| TypeScript | `languages/typescript/starters/fizzbuzz/fizzbuzz.ts` | `cd languages/typescript && npm install && npm test -- tests/fizzbuzz.test.ts` |
+| Java | `languages/java/starters/src/main/java/dev/ruben/algorithms/fizzbuzz/FizzBuzz.java` | `cd languages/java && mvn -Dtest=FizzBuzzTest test` |
+
 ## Reference implementations
 
 Consult these only after completing or explicitly abandoning an attempt:
@@ -60,4 +71,5 @@ Consult these only after completing or explicitly abandoning an attempt:
 - [TypeScript](../../languages/typescript/solutions/fizzbuzz)
 - [Go](../../languages/go/solutions/fizzbuzz)
 
-Progressive hints are stored in [`hints.md`](./hints.md) for use by the tutor.
+Consult [`reference.md`](./reference.md) only after an attempt. Progressive
+hints are stored in [`hints.md`](./hints.md) for use by the tutor.

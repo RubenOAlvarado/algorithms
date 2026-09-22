@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "language": "typescript",
+  "challenges": {
+    "fizzbuzz": {
+      "required_commands": ["node", "npm"],
+      "artifacts": [
+        {"source": "starters/fizzbuzz", "target": "starters/fizzbuzz"},
+        {"source": "tests/fizzbuzz.test.ts", "target": "tests"},
+        {"source": "package.json", "target": "."},
+        {"source": "package-lock.json", "target": "."},
+        {"source": "tsconfig.json", "target": "."}
+      ],
+      "setup_commands": [["npm", "ci"]],
+      "test_command": ["npm", "test", "--", "tests/fizzbuzz.test.ts"],
+      "compile_command": ["npm", "run", "typecheck"],
+      "reference_artifacts": [
+        {"source": "tests/fizzbuzz.test.ts", "target": "tests"},
+        {"source": "package.json", "target": "."},
+        {"source": "package-lock.json", "target": "."},
+        {"source": "tsconfig.json", "target": "."},
+        {"source": "solutions/fizzbuzz/fizzbuzz.ts", "target": "starters/fizzbuzz"}
+      ]
+    }
+  }
+}

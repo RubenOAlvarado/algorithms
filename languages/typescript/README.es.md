@@ -2,23 +2,16 @@
 
 # TypeScript
 
-Todas las implementaciones de TypeScript comparten este proyecto y sus
-dependencias.
+Haz un fork del repositorio y edita `starters/<challenge>/` in situ. Las pruebas
+apuntan al starter y fallan deliberadamente mientras permanezca incompleto.
 
 ```bash
 npm install
-npm run typecheck
-npm run build
-npm test
+npm test -- tests/fizzbuzz.test.ts
 ```
 
-Ejecuta el ejemplo de un reto pasando su `index.ts` al ejecutor compartido:
-
-```bash
-npm run run -- solutions/fibonacci/index.ts
-```
-
-Las nuevas soluciones de referencia deben situarse en `solutions/<challenge>/`.
-El código inicial y las pruebas permanecen separados para que el tutor pueda
-crear un espacio de trabajo aislado para el estudiante. Los nuevos retos no
-requieren otro `package.json` ni otro `tsconfig.json`.
+Ejecuta estos comandos desde `languages/typescript`. Edita el starter
+correspondiente hasta que pase la prueba de contrato. Las referencias están en
+`solutions/<challenge>/` y usan el procedimiento de mantenedor de
+[`docs/solution-review.es.md`](../../docs/solution-review.es.md). Los retos
+nuevos no requieren otro `package.json` ni otro `tsconfig.json`.

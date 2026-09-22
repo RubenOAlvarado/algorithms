@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "language": "java",
+  "challenges": {
+    "fizzbuzz": {
+      "required_commands": ["java", "mvn"],
+      "artifacts": [
+        {"source": "starters/src/main/java/dev/ruben/algorithms/fizzbuzz/FizzBuzz.java", "target": "starters/src/main/java/dev/ruben/algorithms/fizzbuzz"},
+        {"source": "tests/src/test/java/dev/ruben/algorithms/fizzbuzz/FizzBuzzTest.java", "target": "tests/src/test/java/dev/ruben/algorithms/fizzbuzz"},
+        {"source": "pom.xml", "target": "."}
+      ],
+      "test_command": ["mvn", "-Dtest=FizzBuzzTest", "test"],
+      "compile_command": ["mvn", "-DskipTests", "compile"],
+      "reference_artifacts": [
+        {"source": "tests/src/test/java/dev/ruben/algorithms/fizzbuzz/FizzBuzzTest.java", "target": "tests/src/test/java/dev/ruben/algorithms/fizzbuzz"},
+        {"source": "pom.xml", "target": "."},
+        {"source": "solutions/src/main/java/dev/ruben/algorithms/fizzbuzz/FizzBuzz.java", "target": "starters/src/main/java/dev/ruben/algorithms/fizzbuzz"}
+      ]
+    }
+  }
+}

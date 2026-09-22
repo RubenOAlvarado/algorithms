@@ -30,21 +30,27 @@ convention used to add Python, Ruby, or another language.
 - Browse challenges [by difficulty](./docs/difficulty.md).
 - Inspect difficulty, patterns, and prerequisites in
   [`catalog.yml`](./catalog.yml).
+- Practice a challenge by editing its starter in place. See
+  [`docs/practice.md`](./docs/practice.md).
 - See how reference implementations are validated in
   [`docs/solution-review.md`](./docs/solution-review.md).
 
-## Run implementations
+## Practice and verify
 
 ```bash
-# Java
-cd languages/java && mvn test
+# Go: practice FizzBuzz (the incomplete starter makes this fail at first)
+cd languages/go && go test ./tests/fizzbuzz
 
-# TypeScript
-cd languages/typescript && npm install && npm run typecheck
+# TypeScript: practice FizzBuzz
+cd languages/typescript && npm install && npm test -- tests/fizzbuzz.test.ts
 
-# Go
-cd languages/go && go test ./...
+# Java: practice FizzBuzz
+cd languages/java && mvn -Dtest=FizzBuzzTest test
 ```
+
+These commands test starters and are intentionally red until the exercise is
+implemented. Reference verification is a maintainer workflow documented in
+[`docs/solution-review.md`](./docs/solution-review.md).
 
 ## Challenges
 

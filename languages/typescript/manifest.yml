@@ -3,37 +3,102 @@ language: typescript
 solutions:
   fizzbuzz:
     status: verified
-    tested: true
     contract: ../../challenges/fizzbuzz/README.md
+    reference_root: solutions/fizzbuzz
+    variants: [recommended]
+    tested: true
+    contract_reviewed: true
+    complexity_reviewed: true
+    common_failures_tested: true
+    documentation_reviewed: true
+    rubric:
+      correctness: pass
+      clarity: pass
+      complexity: pass
+      idiomatic_usage: pass
+      testability: pass
+      edge_cases: pass
+      pedagogical_value: pass
+      consistency: pass
 
-defaults:
-  migrated-solution-status: legacy
-
-legacy-solutions:
-  - capitalize
-  - chunk-array
-  - count-digits
-  - diagonal-difference
-  - factorial
-  - fibonacci
-  - first-occurrence
-  - is-unique
-  - valid-parentheses
-  - length-of-last-word
-  - lonely-integer
-  - longest-common-prefix
-  - max-char
-  - max-profit
-  - merge-strings
-  - missing-number
-  - number-palindrome
-  - palindrome
-  - reverse-array
-  - reverse-integer
-  - reverse-string
-  - spiral-matrix
-  - sum-digits
-  - sum-natural-numbers
-  - valid-anagram
-  - vowels-count
-  - word-count
+  capitalize:
+    status: legacy
+    tested: false
+  chunk-array:
+    status: legacy
+    tested: false
+  count-digits:
+    status: legacy
+    tested: false
+  diagonal-difference:
+    status: legacy
+    tested: false
+  factorial:
+    status: legacy
+    tested: false
+  fibonacci:
+    status: legacy
+    tested: false
+  first-occurrence:
+    status: legacy
+    tested: false
+  is-unique:
+    status: legacy
+    tested: false
+  valid-parentheses:
+    status: legacy
+    tested: false
+  length-of-last-word:
+    status: legacy
+    tested: false
+  lonely-integer:
+    status: legacy
+    tested: false
+  longest-common-prefix:
+    status: legacy
+    tested: false
+  max-char:
+    status: legacy
+    tested: false
+  max-profit:
+    status: legacy
+    tested: false
+  merge-strings:
+    status: legacy
+    tested: false
+  missing-number:
+    status: legacy
+    tested: false
+  number-palindrome:
+    status: legacy
+    tested: false
+  palindrome:
+    status: legacy
+    tested: false
+  reverse-array:
+    status: legacy
+    tested: false
+  reverse-integer:
+    status: legacy
+    tested: false
+  reverse-string:
+    status: legacy
+    tested: false
+  spiral-matrix:
+    status: legacy
+    tested: false
+  sum-digits:
+    status: legacy
+    tested: false
+  sum-natural-numbers:
+    status: legacy
+    tested: false
+  valid-anagram:
+    status: legacy
+    tested: false
+  vowels-count:
+    status: legacy
+    tested: false
+  word-count:
+    status: legacy
+    tested: false

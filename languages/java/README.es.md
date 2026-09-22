@@ -2,29 +2,25 @@
 
 # Java 21
 
-Todas las implementaciones de Java comparten este proyecto Maven. Cada reto usa
-un paquete bajo `dev.ruben.algorithms` y tiene sus correspondientes pruebas de
+Haz un fork del repositorio y edita in situ el starter elegido. Cada reto usa un
+paquete bajo `dev.ruben.algorithms` y tiene sus correspondientes pruebas de
 JUnit 5.
 
 El proyecto requiere JDK 21 o posterior.
 
 ```text
-starters/<challenge>/src/main/java/       # Se copia para practicar
+starters/src/main/java/                   # Árbol compartido para practicar
 solutions/src/main/java/                  # Implementaciones de referencia
 tests/src/test/java/                      # Pruebas de contrato
 ```
 
-Ejecuta todas las pruebas de Java:
+Ejecuta la prueba de práctica de FizzBuzz desde `languages/java`:
 
 ```bash
-mvn test
+mvn -Dtest=FizzBuzzTest test
 ```
 
-Ejecuta una clase de prueba:
-
-```bash
-mvn -Dtest=ClassNameTest test
-```
-
-No todos los retos necesitan una implementación en Java. Añade paquetes de
-forma incremental a medida que se seleccionen retos para practicar.
+Las pruebas apuntan a starters y fallan deliberadamente mientras el ejercicio
+esté incompleto. Las referencias permanecen en `solutions/`; verifícalas con el
+procedimiento de mantenedor de
+[`docs/solution-review.es.md`](../../docs/solution-review.es.md).

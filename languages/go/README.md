@@ -2,19 +2,14 @@
 
 # Go
 
-All Go implementations belong to this module, with one package directory per
-challenge.
+Fork the repository and edit `starters/<challenge>/` in place. Public contract
+tests target the starter, so they are intentionally red while it is incomplete.
 
 ```bash
-go test ./solutions/...
+go test ./tests/fizzbuzz
 ```
 
-Run an implemented challenge with:
-
-```bash
-go run ./solutions/fibonacci
-```
-
-New reference solutions belong in `solutions/<challenge>/`. New challenges do
-not require another `go.mod`. Public tests belong in `tests/<challenge>/` and
-reference-only tests remain next to their implementation in `solutions/`.
+Run the command from `languages/go`. Edit the matching starter until its test
+passes. Reference solutions belong in `solutions/<challenge>/` and are verified
+by the maintainer procedure in [`docs/solution-review.md`](../../docs/solution-review.md).
+New challenges do not require another `go.mod`.

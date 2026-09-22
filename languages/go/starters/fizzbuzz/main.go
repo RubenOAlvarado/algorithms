@@ -1,4 +1,4 @@
-package main
+package fizzbuzz
 
 func FizzBuzz(n int) []string {
 	// TODO: implement FizzBuzz without printing from this function.

@@ -2,22 +2,27 @@
 
 # Implementaciones por lenguaje
 
-Cada directorio es un proyecto independiente que contiene implementaciones para
-cualquier número de retos. Un reto no tiene que estar disponible en todos los
-lenguajes.
+Cada directorio es un proyecto independiente para cualquier número de retos.
+Haz un fork del repositorio, edita in situ el starter elegido y ejecuta la
+prueba de contrato de ese lenguaje. Un reto no tiene que estar disponible en
+todos los lenguajes.
 
 Cada lenguaje puede proporcionar:
 
 ```text
-starters/     # Código incompleto que se copia al espacio de trabajo del estudiante
+starters/     # Código incompleto que edita in situ quien aprende
 tests/        # Pruebas automatizadas basadas en contratos
 solutions/    # Implementaciones de referencia revisadas o heredadas
-manifest.yml  # Estado de revisión de cada implementación disponible
+manifest.yml  # Fuente de verdad del estado de revisión de cada implementación
 ```
 
-La futura habilidad de tutor copiará el código inicial y las pruebas al
-directorio ignorado `.practice/`. Los estudiantes nunca deberían editar las
-soluciones de referencia durante una sesión de práctica normal.
+Java es la excepción estructural: todos los starters comparten el árbol Maven
+`starters/src/main/java/`, mientras que las pruebas y referencias usan sus
+propios árboles compartidos. Quien aprende edita starters, nunca referencias.
+
+Cada lenguaje incluye un adaptador opcional `kata-smith.json` para herramientas
+externas. El repositorio no necesita kata-smith, kata-smith no necesita este
+repositorio y los proyectos de lenguaje siguen siendo independientes.
 
 ## Lenguajes actuales
 
@@ -34,4 +39,5 @@ soluciones de referencia durante una sesión de práctica normal.
 5. Registra el estado de revisión de las soluciones en `manifest.yml`.
 
 Los proyectos de cada lenguaje permanecen independientes, de modo que añadir
-Python, Ruby u otro lenguaje no afecta a las compilaciones existentes.
+Python, Ruby u otro lenguaje no afecta a las compilaciones ni a las herramientas
+existentes.

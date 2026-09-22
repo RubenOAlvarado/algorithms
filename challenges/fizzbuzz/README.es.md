@@ -52,6 +52,17 @@ n = 15
 - [ ] La entrada se recorre una sola vez.
 - [ ] Se pueden explicar las complejidades temporal y espacial.
 
+## Práctica
+
+Haz un fork del repositorio y edita in situ un starter. Su prueba de contrato
+empieza en rojo porque el starter está incompleto deliberadamente.
+
+| Lenguaje | Starter | Comando |
+| --- | --- | --- |
+| Go | `languages/go/starters/fizzbuzz/main.go` | `cd languages/go && go test ./tests/fizzbuzz` |
+| TypeScript | `languages/typescript/starters/fizzbuzz/fizzbuzz.ts` | `cd languages/typescript && npm install && npm test -- tests/fizzbuzz.test.ts` |
+| Java | `languages/java/starters/src/main/java/dev/ruben/algorithms/fizzbuzz/FizzBuzz.java` | `cd languages/java && mvn -Dtest=FizzBuzzTest test` |
+
 ## Implementaciones de referencia
 
 Consúltalas únicamente después de completar un intento o de abandonarlo de
@@ -61,5 +72,6 @@ forma explícita:
 - [TypeScript](../../languages/typescript/solutions/fizzbuzz)
 - [Go](../../languages/go/solutions/fizzbuzz)
 
-Las pistas progresivas se encuentran en [`hints.es.md`](./hints.es.md) para que
-las utilice el tutor.
+Consulta [`reference.es.md`](./reference.es.md) solo después de un intento. Las
+pistas progresivas se encuentran en [`hints.es.md`](./hints.es.md) para que las
+utilice el tutor.

@@ -1,13 +1,6 @@
-package main
+package fizzbuzz
 
-import (
-	"fmt"
-	"strconv"
-)
-
-func main() {
-	fmt.Println(FizzBuzz(15))
-}
+import "strconv"
 
 // FizzBuzz returns the representation of every integer from 1 through n.
 // Its time complexity is O(n), and it uses O(n) space for the result.

@@ -24,7 +24,7 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>solutions/src/main/java</sourceDirectory>
+        <sourceDirectory>starters/src/main/java</sourceDirectory>
         <testSourceDirectory>tests/src/test/java</testSourceDirectory>
         <plugins>
             <plugin>

@@ -3,42 +3,57 @@ language: java
 solutions:
   fizzbuzz:
     status: verified
-    tested: true
     java: 21
     contract: ../../challenges/fizzbuzz/README.md
+    reference_root: solutions/src/main/java/dev/ruben/algorithms/fizzbuzz
+    variants: [recommended]
+    tested: true
+    contract_reviewed: true
+    complexity_reviewed: true
+    common_failures_tested: true
+    documentation_reviewed: true
+    rubric:
+      correctness: pass
+      clarity: pass
+      complexity: pass
+      idiomatic_usage: pass
+      testability: pass
+      edge_cases: pass
+      pedagogical_value: pass
+      consistency: pass
 
   valid-parentheses:
-    status: draft
+    status: legacy
     tested: false
     java: 21
     contract: ../../challenges/valid-parentheses/README.md
 
   valid-anagram:
-    status: draft
+    status: legacy
     tested: false
     java: 21
     contract: ../../challenges/valid-anagram/README.md
 
   max-profit:
-    status: draft
+    status: legacy
     tested: false
     java: 21
     contract: ../../challenges/max-profit/README.md
 
   missing-number:
-    status: draft
+    status: legacy
     tested: false
     java: 21
     contract: ../../challenges/missing-number/README.md
 
   longest-common-prefix:
-    status: draft
+    status: legacy
     tested: false
     java: 21
     contract: ../../challenges/longest-common-prefix/README.md
 
   spiral-matrix:
-    status: draft
+    status: legacy
     tested: false
     java: 21
     contract: ../../challenges/spiral-matrix/README.md
